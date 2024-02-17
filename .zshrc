@@ -122,3 +122,10 @@ alias cat=bat
 alias ls="exa --icons"
 alias find=fd
 alias grep=rg
+
+# editor (vscode)
+
+export EDITOR="code --wait"
+
+# rust
+source "$HOME/.cargo/env"
